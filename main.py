@@ -1,8 +1,9 @@
-# Meu primeiro projeto Python!!!
+nome = input("Informe seu nome: ")
+nota = float(input("Digite sua nota: "))
 
-print('Hello World!\n')
-
-nome = 'Tiago'
-idade = 36
-
-print(f'Meu nome é {nome} e tenho {idade} anos de idade')
+if (nota == 10):
+  print(f"{nome}, você é o bichão, mesmo...")
+elif (nota >= 6 and nota < 10):
+  print(f"{nome}, bom trabalho...")
+else:
+  print("Burro, não tirou dez...")
