@@ -20,3 +20,7 @@ preco_produto = 299
 
 imposto = calcular_importo(preco_produto)
 print(imposto)
+
+def calcular_imposto_aliquota(valor, aliquota = 0.07):
+  imposto = valor * aliquota
+  return imposto
